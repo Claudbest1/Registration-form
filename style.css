@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-size: 16px;
+  font-family: url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(252, 99, 99);
+}
+.container {
+  position: relative;
+  width: 450px;
+  height: 500px;
+  float: left;
+  padding: 50px;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 700px;
+  color: white;
+}
+p {
+  font-size: 16px;
+  font-weight: 400px;
+  color: white;
+}
+.free-trial {
+  position: relative;
+  left: 15px;
+  background-color: hsl(248, 32%, 49%);
+  padding: 10px;
+  text-align: center;
+  width: 500px;
+  border-radius: 5px;
+}
+
+.registration {
+  position: relative;
+  width: 500px;
+  height: 400px;
+  background-color: white;
+  align-items: center;
+  margin: 15px 15px 15px 15px;
+  border-radius: 5px;
+}
+.registration .input-group input {
+  align-content: center;
+  text-align: left;
+  padding: 10px;
+  position: relative;
+  margin-left: 25px;
+  margin-top: 25px;
+  justify-content: space-between;
+  width: 450px;
+  border: 2px solid hsl(249, 10%, 26%);
+  border-radius: 5px;
+}
+.button {
+  position: relative;
+  left: 25px;
+  background-color: hsl(154, 59%, 51%);
+  width: 450px;
+  padding: 10px;
+  margin-top: 25px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* font-family: 'Poppins',
+sans-serif; */
+
+/* # Front-end Style Guide ## Layout 
+The designs were created to the following widths: - Mobile: 375px - Desktop: 1440px 
+## Colors 
+### Primary - Red: hsl(0, 100%, 74%) - Green: hsl(154, 59%, 51%) 
+### Accent - Blue: hsl(248, 32%, 49%) 
+### Neutral - Dark Blue: hsl(249, 10%, 26%) - Grayish Blue: hsl(246, 25%, 77%) 
+## Typography ### Body Copy - Font size: 16px 
+### Font - Family: [Poppins](https: //fonts.google.com/specimen/Poppins)
+    - Weights: 400, 500, 600, 700 */
